@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300|Tajawal:300');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: responsive;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 200;
+}
+
+@media screen and (max-width: 600px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+  }
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+.skill-post-container {
+  max-width: 960px;
+  margin:auto;
+}
+.skill-post-content {
+
+  & > *:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 2em;
+
+    & > *:not(:last-child) {
+      margin-bottom: .25em;
+    }
+  }
+}
