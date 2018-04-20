@@ -8,3 +8,5 @@ const Index = () => {
     <div className={styles.container}> IndexPage! </div>
   )
 }
+
+export default Index
