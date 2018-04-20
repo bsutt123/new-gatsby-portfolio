@@ -1,31 +1,45 @@
 ---
-templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
-tags:
-  - flavor
-  - tasting
+templateKey: skill-post
+title: Javascript
+description: My Experience with Javascript
 ---
+# JavaScript
 
-![flavor wheel](/img/flavor_wheel.jpg)
+I've had the opportunity to use JavaScript (JS) in nearly all of my projects. I feel very comfortable in all the different parts of the language, and I really love to get down into the guts of the language and get a chance to learn more about what it is actually happening in the language.
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## Skill Level
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+I would call myself an advanced JS user. I have written a lot of JS as a start, but more importantly I have made it my goal to not just understand how to write JS but also _why_ it functions the way it does. Its one thing to understand how to use the tools that JS provides like closure, and the new class syntax, but I think that its an entirely different point to be able to articulate what each of those tools is actually doing. I think that understanding the fundamentals of the language, and being able to recognize things like closure, prototypal inheritance and lexical scope help me write cleaner, better, and less buggy code. 
 
-## What the updates mean to you
+## Projects using Javascript
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+* [Discovr]
+* [Vue-Chat]
+* [Its So Ranunculus]
+* [Web Portfolio]
+* [All Chatty Versions]
+* [Bloc-Jams]
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+## Courses and Learning
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+I of course got the chance to do tons of JS practice while I was attending Bloc, but any web developer knows that its impossible for any one source to provide you all the information you need to become a master. Recently, I've started to work on taking courses from Udemy and Frontend Masters in order to expand my JS knowledge, and I have completed these so far in addition to all the projects that I have completed.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+* [Understanding Javascript: The Weird Parts with Anthony Alicea](https://www.udemy.com/understand-javascript/)
+* [Javascript: The Hard Parts with Will Sentance](https://frontendmasters.com/courses/javascript-hard-parts/)
+* [Deep Javascript Foundations with Kyle Simpson](https://frontendmasters.com/courses/javascript-foundations/)
+* [ES6 The Right Parts with Kyle Simpson](https://frontendmasters.com/courses/es6-right-parts/)
+* [Asynchronous Programming in Javascript (with RxJS Observables) by Jafar Husain](https://frontendmasters.com/courses/asynchronous-javascript/)
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+## What I love about the Language
+
+There is a lot to love about JS, but I think that the most interesting thing to me is the way that JS has implemented both static and dynamic scoping within the same language. It's incredibly powerful to be able to leverage the advantages of lexical scoping, giving functions a static environment to determine variables, as well as being about to use `this** to refer to objects dynamically referenced by the functions scope. I find it hard to imagine what it would be like to have to program without either of these incredibly powerful features.
+
+The way that JS treats functions as first class objects is another one of my favorite parts about the language. Not only is it important for dealing with event listeners and callbacks, its essential for a language if you want to implement functional programming principals t
+
+## What frustrates me about JavaScript
+
+My biggest frustration with JS is the lack of standard library tools that you might find in a more robust language. I also have had the opportunity to use the ruby language in Rails for a number of different projects, and the way that ruby has generated such a robust standard library makes programming in ruby a real joy. I understand the need to keep a language lean, especially one that has to run in the browser, but I still wish there was a larger standard library.
+
+## What I want to do next
+
+With the way that the JS community and ecosystem is evolving, there is not limit to what you can do to grow into the language. 
