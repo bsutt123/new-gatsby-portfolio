@@ -1,0 +1,31 @@
+.container {
+  max-width: 960px;
+  margin: * auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.subHeading {
+  text-align: center;
+  font-size: 1rem;
+}
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(220px, 1fr) );
+  grid-gap: 2rem;
+  padding: 2rem;
+}
+
+.skillImg {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 400px) {
+  .skillsList {
+    grid-template-columns: 1fr
+  }
+}
